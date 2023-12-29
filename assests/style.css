@@ -141,7 +141,7 @@ body{
 }
 
 .infoimg{
-    width: calc(100% - 1em);
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
