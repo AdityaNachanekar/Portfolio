@@ -140,8 +140,9 @@ body{
     gap: 4em;
 }
 
-.infoimg .img{
-    width: 34em;
+.infoimg{
+    width: 100%;
+    text-align: center;
     margin-inline: 1em;
 }
 
