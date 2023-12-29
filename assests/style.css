@@ -136,16 +136,13 @@ body{
 .personal-info .container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 2.9rem;
     gap: 4em;
 }
 
 .infoimg{
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     margin-inline: 1em;
 }
 
