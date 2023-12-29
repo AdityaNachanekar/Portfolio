@@ -1,6 +1,5 @@
 :root{
-    /* --orange: hsl(27, 100%, 50%); */
-    --orange: red;
+    --orange: hsl(27, 100%, 50%);
     --proj-bg: rgba(0, 0, 0, 0.5);
 
     --bg: gainsboro;
