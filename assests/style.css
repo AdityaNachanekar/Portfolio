@@ -195,10 +195,8 @@ body{
     line-height: 1.5em;
 }
 
-.container .infoimg{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.about .infoimg{
+    width: 100vw;
 }
 
 /*
@@ -556,5 +554,9 @@ body{
 
     .personal-info .container .info{
         padding-right: 1em;
+    }
+
+    .mr-top{
+        margin-inline: 1em;
     }
 }
