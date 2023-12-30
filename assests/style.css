@@ -561,7 +561,7 @@ body{
     }
 
     .mr-top{
-        margin-inline: 1em;
+        margin-inline: 0em;
     }
 
     .about .container{
