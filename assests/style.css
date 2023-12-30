@@ -561,7 +561,7 @@ body{
     }
 
     .about .container{
-        padding: 1em 0.2em;
+        padding: 1.5em 1em;
     }
 
     .about .info{
@@ -569,6 +569,7 @@ body{
     }
 
     .about .info .desc{
-        text-align:start;
+        text-align: justify;
+        padding: 0px;
     }
 }
