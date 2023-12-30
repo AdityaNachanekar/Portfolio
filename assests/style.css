@@ -143,7 +143,6 @@ body{
 
 .personal-info .infoimg{
     width: 98%;
-    margin-inline: 1em;
 }
 
 .info{
@@ -191,12 +190,9 @@ body{
 }
 
 .about .info{
-    padding: 1em 1em 0 6em;
+    padding: 1em 1em 0 5em;
     line-height: 1.5em;
-}
-
-.about .infoimg{
-    width: 100vw;
+    width: 90%;
 }
 
 /*
@@ -549,7 +545,7 @@ body{
     .personal-info .container{
         flex-direction: column;
         text-align: center;
-        padding: 0px;
+        padding: 1em;
     }
 
     .personal-info .container .info{
@@ -558,5 +554,9 @@ body{
 
     .mr-top{
         margin-inline: 1em;
+    }
+
+    .about .info{
+        padding: 0;
     }
 }
