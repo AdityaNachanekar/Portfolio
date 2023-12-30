@@ -549,7 +549,7 @@ body{
     .personal-info .container{
         flex-direction: column;
         text-align: center;
-        padding: 1em;
+        padding: 0em;
     }
 
     .personal-info .container .info{
@@ -560,11 +560,15 @@ body{
         margin-inline: 1em;
     }
 
+    .about .container{
+        padding: 1em;
+    }
+
     .about .info{
         padding: 0;
     }
 
     .about .info .desc{
-        text-align: left;
+        text-align:start;
     }
 }
