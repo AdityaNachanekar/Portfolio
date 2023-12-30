@@ -195,6 +195,10 @@ body{
     width: 90%;
 }
 
+.about .info .desc{
+    margin-top: 1em;
+}
+
 /*
     Section 3
 */
@@ -561,7 +565,7 @@ body{
     }
 
     .about .container{
-        padding: 1.5em 0.5em;
+        padding: 1.5em 1.5em;
     }
 
     .about .info{
