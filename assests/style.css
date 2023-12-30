@@ -565,7 +565,11 @@ body{
     }
 
     .about .container{
-        padding: 1.5em 1.5em;
+        padding: 1.5em 0em;
+    }
+
+    .about .container .infoimg{
+        margin-inline: 1em;
     }
 
     .about .info{
