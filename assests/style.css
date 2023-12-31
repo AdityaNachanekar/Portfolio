@@ -459,7 +459,7 @@ body{
 .contact-desc .morelinks{
     bottom: 0px;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     margin: 2em 0em;
     gap: 2em;
