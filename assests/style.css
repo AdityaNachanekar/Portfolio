@@ -427,7 +427,7 @@ body{
 .contact-desc{
     display: flex;
     flex-direction: column;
-    justify-content: center, start;
+    justify-content: center;
     gap: 1em;
     position: relative;
 }
