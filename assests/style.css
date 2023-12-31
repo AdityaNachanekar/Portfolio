@@ -429,7 +429,6 @@ body{
     flex-direction: column;
     justify-content: center;
     gap: 1em;
-    position: relative;
 }
 
 .contact-desc .h3{
@@ -458,14 +457,12 @@ body{
 }
 
 .contact-desc .morelinks{
-    bottom: 0px;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    left: 0px;
-    position: absolute;
     gap: 2em;
 }
+
 .morelinks a img,
 .morelinks a{
     width: 0.6em;
@@ -607,5 +604,9 @@ body{
 
     .proj .overlap{
         height: 100%;
+    }
+
+    .contact{
+        padding: 1em;
     }
 }
