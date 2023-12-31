@@ -429,7 +429,6 @@ body{
     flex-direction: column;
     justify-content: center;
     gap: 1em;
-    position: relative;
 }
 
 .contact-desc .h3{
@@ -458,11 +457,11 @@ body{
 }
 
 .contact-desc .morelinks{
-    position: absolute;
     bottom: 0px;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
+    margin: 2em 0em;
     gap: 2em;
 }
 .morelinks a img,
