@@ -587,6 +587,7 @@ body{
     /* Skills */
     .skillcont{
         flex-direction: column;
+        gap: 0;
     }
 
     .skillcont .Ps,
