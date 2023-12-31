@@ -602,4 +602,8 @@ body{
     .grid-3 .proj{
         width: 90vw;
     }
+
+    .proj .overlap{
+        height: 100%;
+    }
 }
