@@ -462,7 +462,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2em 0em;
+    left: 0px;
     position: absolute;
     gap: 2em;
 }
