@@ -209,6 +209,7 @@ body{
     margin-top: 2.6em;
     justify-content: space-between;
     gap: 20px;
+    align-items: center;
     color: var(--primary-color);
 }
 
@@ -536,6 +537,10 @@ body{
 */
 
 @media (max-width: 700px){
+    .mr-top{
+        margin-inline: 1em;
+    }
+
     .nav-list{
         display: none;
     }
@@ -549,6 +554,7 @@ body{
         display: block;
     }
 
+    /* Container */
     .about .container,
     .personal-info .container{
         flex-direction: column;
@@ -560,10 +566,7 @@ body{
         padding-right: 1em;
     }
 
-    .mr-top{
-        margin-inline: 1em;
-    }
-
+    /* About */
     .about .container{
         padding: 1.5em 0em;
     }
@@ -579,5 +582,14 @@ body{
     .about .info .desc{
         text-align: justify;
         padding: 0px;
+    }
+
+    /* Skills */
+    .skillcont{
+        flex-direction: column;
+    }
+
+    .skillcont .Ts{
+        width: 80vw;
     }
 }
