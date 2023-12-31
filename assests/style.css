@@ -594,6 +594,7 @@ body{
         width: 80vw;
     }
 
+    /* Contact */
     .contact .container,
     .grid-3{
         grid-template-columns: 1fr;
