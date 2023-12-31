@@ -597,9 +597,9 @@ body{
 
     .grid-3{
         grid-template-columns: 1fr;
+    }
 
-        .proj{
-            width: 90vw;
-        }
+    .grid-3 .proj{
+        width: 90vw;
     }
 }
