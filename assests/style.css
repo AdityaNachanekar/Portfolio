@@ -594,4 +594,12 @@ body{
     .skillcont .Ts{
         width: 80vw;
     }
+
+    .grid-3{
+        grid-template-columns: 1fr;
+
+        .proj{
+            width: 90vw;
+        }
+    }
 }
