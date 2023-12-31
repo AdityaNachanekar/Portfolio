@@ -589,6 +589,7 @@ body{
         flex-direction: column;
     }
 
+    .skillcont .Ps,
     .skillcont .Ts{
         width: 80vw;
     }
