@@ -397,11 +397,11 @@ body{
     height: 0px;
     width: auto;
     backdrop-filter: blur(0px);
-    border-radius: none;
+    text-align: center;
 }
 
 .projdesc{
-    margin-top: 8%;
+    margin-top: 2em;
     text-align: center;
 }
 
