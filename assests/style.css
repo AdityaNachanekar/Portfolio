@@ -32,6 +32,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .trans{
     transition: all 1s cubic-bezier(0.14, 0.67, 0.58, 1);
 }
@@ -143,6 +147,7 @@ body{
 
 .personal-info .infoimg{
     width: 98%;
+    max-width: 450px;
 }
 
 .info{
@@ -276,7 +281,7 @@ body{
 .Ps .skillsgrid {
     display: grid;
     margin-top: 3em;
-    gap: 2em;
+    gap: 3.2em;
     grid-template-columns: 1fr 1fr;
 }
 .psdetails{
@@ -389,8 +394,8 @@ body{
     background-color: white;
     color: var(--orange);
     font-weight: bolder;
-    margin-bottom: 4%;
-    margin-top: 4%;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
 }
 
 .proj .overlap .projh3{
@@ -402,8 +407,9 @@ body{
 }
 
 .projdesc{
-    margin-top: 2em;
+    margin-top: 1em;
     text-align: center;
+    padding: 1em;
 }
 
 .proj:hover{
@@ -620,8 +626,41 @@ body{
     }
 }
 
-@media (min-width: 768px) and (max-width: 1050px){
+@media (min-width: 768px) and (max-width: 1023px){
+    .about .container,
+    .personal-info .container{
+        padding: 1em;
+    }
+
+    .personal-info .container .info{
+        padding-right: 0px;
+    }
+
+    .skill .skillcont{
+        padding: 0px;
+    }
+
+    /* Project */
+    .grid-3{
+        grid-template-columns: 1fr 1fr;
+    }
     
+    .grid-3 .proj{
+        width: 44vw;
+    }
+
+    .proj .overlap{
+        height: 100%;
+    }
+
+    /* Contact */
+    .contact .container{
+        grid-template-columns: 1fr;
+    }
+
+    .contact{
+        padding: 2.5em 2em;
+    }
 }
 
 @media (min-width: 1500px){
