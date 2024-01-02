@@ -542,7 +542,7 @@ body{
     Media Query
 */
 
-@media (max-width: 700px){
+@media (max-width: 767px){
     .mr-top{
         margin-inline: 1em;
     }
@@ -618,6 +618,10 @@ body{
     .contact{
         padding: 2.5em 1em;
     }
+}
+
+@media (min-width: 768px) and (max-width: 1050px){
+    
 }
 
 @media (min-width: 1500px){
