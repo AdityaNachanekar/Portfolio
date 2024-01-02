@@ -267,6 +267,10 @@ body{
 .skillcont .Ps{
     width: 40vw;
     padding: 1.6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .Ps .skillsgrid {
