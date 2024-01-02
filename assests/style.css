@@ -345,6 +345,7 @@ body{
     align-items: center;
     justify-content: center ;
     font-weight: bolder;
+    text-align: center;
     color: white;
     background-color: var(--proj-bg);
     backdrop-filter: blur(6px);
