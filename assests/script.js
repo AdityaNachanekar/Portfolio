@@ -1,5 +1,5 @@
-let Tsprogress = [50, 63, 80, 92];
-let Psprogress = [50, 63, 38, 90];
+let Tsprogress = [50, 63, 95, 95];
+let Psprogress = [60, 85, 70, 90];
 
 let psouter = document.querySelectorAll(".outer");
 let psnumber = document.querySelectorAll(".psprogressper");
