@@ -214,7 +214,7 @@ body{
     margin-top: 2.6em;
     justify-content: space-between;
     gap: 20px;
-    align-items: center;
+    align-items: start;
     color: var(--primary-color);
 }
 
@@ -597,9 +597,10 @@ body{
     }
 
     /* Skills */
-    .skillcont{
+    .skill .skillcont{
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 
     .skillcont .Ps,
